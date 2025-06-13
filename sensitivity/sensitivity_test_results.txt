@@ -1,0 +1,34 @@
+=== Class Weights Sensitivity ===
+  Configuration: [1.0, 1.0]
+    Validation Metrics: Accuracy=91.00%, Precision=0.8596, Recall=0.9800, F1=0.9159
+    Test Metrics: Accuracy=71.00%, Precision=0.7838, Recall=0.5800, F1=0.6667
+  Configuration: [1.0, 2.0]
+    Validation Metrics: Accuracy=78.00%, Precision=0.7121, Recall=0.9400, F1=0.8103
+    Test Metrics: Accuracy=79.00%, Precision=0.7458, Recall=0.8800, F1=0.8073
+  Configuration: [1.0, 3.0]
+    Validation Metrics: Accuracy=80.00%, Precision=0.8571, Recall=0.7200, F1=0.7826
+    Test Metrics: Accuracy=94.00%, Precision=0.9074, Recall=0.9800, F1=0.9423
+
+
+=== Learning Rate Sensitivity ===
+  Configuration: 0.05
+    Validation Metrics: Accuracy=55.00%, Precision=0.5352, Recall=0.7600, F1=0.6281
+    Test Metrics: Accuracy=54.00%, Precision=0.5625, Recall=0.3600, F1=0.4390
+  Configuration: 0.001
+    Validation Metrics: Accuracy=78.00%, Precision=0.7121, Recall=0.9400, F1=0.8103
+    Test Metrics: Accuracy=83.00%, Precision=0.7538, Recall=0.9800, F1=0.8522
+  Configuration: 0.005
+    Validation Metrics: Accuracy=50.00%, Precision=0.5000, Recall=1.0000, F1=0.6667
+    Test Metrics: Accuracy=50.00%, Precision=0.5000, Recall=1.0000, F1=0.6667
+
+=== Optimizer Sensitivity ===
+  Configuration: SGD
+    Validation Metrics: Accuracy=73.00%, Precision=0.9600, Recall=0.4800, F1=0.6400
+    Test Metrics: Accuracy=51.00%, Precision=0.6667, Recall=0.0400, F1=0.0755
+  Configuration: Adam
+    Validation Metrics: Accuracy=77.00%, Precision=0.7077, Recall=0.9200, F1=0.8000
+    Test Metrics: Accuracy=86.00%, Precision=0.8103, Recall=0.9400, F1=0.8704
+  Configuration: RMSprop
+    Validation Metrics: Accuracy=49.00%, Precision=0.4930, Recall=0.7000, F1=0.5785
+    Test Metrics: Accuracy=48.00%, Precision=0.4808, Recall=0.5000, F1=0.4902
+

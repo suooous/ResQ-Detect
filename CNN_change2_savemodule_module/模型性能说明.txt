@@ -1,0 +1,1 @@
+Average Loss: 0.1520, Accuracy: 97.00%, F1 Score: 0.9697
